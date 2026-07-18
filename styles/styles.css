@@ -1,0 +1,75 @@
+/*Estilos generales para toda la página*/
+body {
+    font-family: Arial, sans-serif;   /* Tipografía legible */
+    background-color: #f5f5f5;        /* Color de fondo suave */
+    margin: 0;                          /* Elimina márgenes por defecto */
+    padding: 25px;                 /* Espaciado interno */
+}
+
+/*Estilo del titulo*/
+h1 {
+    color: #333;                      /* Color del texto */
+    text-align: center;             /* Centra el título */
+    margin-bottom: 25px;                   /* Espacio debajo del título */
+}
+
+/*Estilo del formulario*/
+form {
+    background-color: #f0f4f6;        /* Fondo para contraste */
+    padding: 25px;                         /* Espaciado interno */     
+    border-radius: 10px;                     /* Bordes redondeados */
+    max-width: 500px;                       /* Ancho máximo */
+    margin: 0 auto;                                 /* Centrar el formulario */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  /* Sombra */    
+}
+
+/* Labels generales */
+form > label {
+    display: block;                 /* Cada label en una línea */
+    margin-top: 10px;                 /* Espaciado superior */
+    font-weight: bold;                  /* Negritas */
+}
+
+/* Inputs y textarea */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea { 
+    width: 100%;                         /* Ocupan todo el ancho */
+    padding: 8px;                      /* Espaciado interno */
+    margin-top: 5px;                 /* Espacio entre label y campo */
+    border: 1px solid #ccc;           /* Borde gris claro */
+    border-radius: 5px;                   /* Bordes redondeados */
+    font-size: 14px;                          /* Tamaño de fuente */
+}
+
+/*Estilo para el contenedor de intereses*/
+.intereses {
+    margin-top: 10px;                   /* Espaciado superior */
+    padding: 10px;                      /* Espaciado interno */
+    background-color: #e9ecef;        /* Fondo gris claro */
+    border-radius: 5px;                 /* Bordes redondeados */
+}
+
+/* Cada opción de interés */
+.intereses label { 
+    display: inline-block;            /* Alinea checkbox + texto */
+    font-weight: normal;               /* Evita negritas */
+    margin: 5px 0;                      /* Espaciado vertical */
+}
+
+/*Estilo para el botón de submit*/
+#btn_registrarse {
+    background-color: #4caf50;           /* Color VERDE */
+    color: white;                        /* Texto blanco*/
+    padding: 10px;                         /* Espaciado interno */
+    margin-top: 10px;                    /* Espacio superior */
+    border: none;                       /* Sin borde */
+    border-radius: 5px;             /* Bordes redondeados */
+    cursor: pointer;                    /* Cambia el cursor al pasar por encima */
+    font-size: 16px;                      /* Tamaño de fuente */
+}
+
+#btn_registrarse:hover {
+    background-color: #45a049;          /* Color VERDE más oscuro al pasar el mouse */
+}
