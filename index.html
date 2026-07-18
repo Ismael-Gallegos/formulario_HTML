@@ -16,7 +16,38 @@
     <!--<p>Este es un formulario de registro para la persona usuaria.</p>-->
     <form id="form_registro">
 
-        <!-- Campos del formulario -->
+        <!-- Campo: nombre -->
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <!-- Campo: Apellido -->
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido" required>
+
+        <!-- Campo: correo -->
+        <label for="correo">Correo:</label>
+        <input type="email" id="correo" name="correo" required>
+
+        <!-- Campo: contraseña -->
+        <label for="contrasena">Contraseña:</label>
+        <input type="password" id="contrasena" name="contrasena" required>
+
+         <!-- Área de texto para descripción -->
+         <label for="descripcion">Descripción sobre ti:</label>
+         <textarea id="descripcion" name="descripcion" rows="4" cols="50" placeholder="Escribe una breve sobre ti..." required></textarea>
+
+         <!-- Intereses -->
+         <label>Intereses:</label>
+
+
+         <div class="intereses">
+            <label><input type="checkbox" name="intereses" value="Tecnología"> Tecnología</label>
+            <label><input type="checkbox" name="intereses" value="Arte"> Arte</label>
+            <label><input type="checkbox" name="intereses" value="Música"> Música</label>
+         </div>
+
+        <!-- Botón de envío -->
+        <input type="submit" value="Registrarse" id="btn_registrarse">
 
     </form>
     
